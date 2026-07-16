@@ -6,7 +6,14 @@
 
 - 用户：读者与方向裁决者
 - ChatGPT：作者，负责编写、修订和设定回写
-- Codex：证据型Reviewer，负责发现漏洞与连续性问题
+- Codex：专项Reviewer，仅在重大死亡、复杂战争、法则扩展或读者明确要求时启用
+
+## 当前进度
+
+- 小说圣经：已建立并持续维护
+- 第一卷《无乡者之城》卷级大纲：读者已确认
+- 当前阶段：第一卷正文创作
+- 普通章节不再等待Codex逐章审查
 
 ## 目录
 
@@ -16,7 +23,7 @@ outline/    分卷、剧情单元和章节大纲
 chapters/   正文
 state/      人物、事件、兵种、宝物、地图、国家、关系、知识和死亡账本
 summaries/  章节摘要与记忆包
-tools/      Codex审查协议和一致性工具
+tools/      专项审查协议和一致性工具
 ```
 
 ## 核心写作原则
@@ -42,15 +49,15 @@ tools/      Codex审查协议和一致性工具
 - `bible/18_FACTION_DOSSIERS.md`：国家与联盟背景动机
 - `bible/19_UNDEAD_NEEDS_AND_CIVIC_RECIPROCITY.md`：亡灵需求与城市互惠
 - `outline/VOL01_MASTER_OUTLINE.md`：第一卷卷级大纲
+- `outline/VOL01_READER_APPROVAL.md`：读者裁定与进入正文授权
+- `state/VOL01_BATTLE_BASELINE.md`：第一卷守城战力基线
 - `state/ARTIFACT_LEDGER.md`：宝物持有者与状态
 - `state/FACTION_STATE.md`：势力动态
 - `state/MAP_STATE.md`：地点与路线
-- `state/REVIEW_LOG.md`：Codex审查与作者处理
+- `state/REVIEW_LOG.md`：审查历史与读者裁定
 
 ## 当前工作状态
 
-- 工作分支：`agent/volume-01-outline`
-- Draft PR：`#2`
-- 卷一大纲版本：V0.2
-- 正确Codex审查：`REV-20260716-002`，来自PR #4
-- 当前阶段：作者修订后等待Codex复审，不合并`main`
+- 第一卷卷级大纲：V0.4读者确认版
+- 审查状态：`CLOSED_BY_READER`
+- 下一工作：第一卷第一章正文
