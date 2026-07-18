@@ -48,7 +48,7 @@
 1. `11_CANON_LOCK.md` 中的硬规则
 2. 已经发布的正文事实
 3. 本小说圣经中的正式设定
-4. 已通过读者与Codex复审的分卷大纲
+4. 已通过读者与当时Reviewer复审的分卷大纲
 5. 单章计划
 6. 临时灵感
 
@@ -65,7 +65,7 @@
 - 是否需要回查已发布正文
 - 对应Review ID与处理提交
 
-GitHub `main` 保存已确认事实；大纲与正文先在 `agent/<topic>` 分支接受Codex审查，再通过Pull Request合并。
+GitHub `main` 保存已确认事实；大纲与正文先在独立主题分支接受用户指定Reviewer审查，再通过Pull Request合并。
 
 ## 新设定回写规则
 
