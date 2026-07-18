@@ -2,6 +2,7 @@
   "event": "鲁尔的选择",
   "volume": 1,
   "writingMode": "serial",
+  "lengthPolicy": "no_fixed_limit_story_and_prose_first",
   "status": "completed",
   "source": "outline/VOL01_EVENT02_LUER_CHOICE.md",
   "chapters": [
@@ -10,8 +11,6 @@
       "title": "劳役道",
       "status": "completed",
       "filePath": "chapters/vol01/007_劳役道.md",
-      "wordCount": 3635,
-      "wordCountPass": true,
       "retryCount": 0
     },
     {
@@ -19,8 +18,6 @@
       "title": "财产的标准",
       "status": "completed",
       "filePath": "chapters/vol01/008_财产的标准.md",
-      "wordCount": 3297,
-      "wordCountPass": true,
       "retryCount": 0
     },
     {
@@ -28,8 +25,6 @@
       "title": "拒绝归还",
       "status": "completed",
       "filePath": "chapters/vol01/009_拒绝归还.md",
-      "wordCount": 3061,
-      "wordCountPass": true,
       "retryCount": 0
     }
   ]
